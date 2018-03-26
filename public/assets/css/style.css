@@ -9,10 +9,26 @@ html {
     background-size: cover; */
 }
 
+#avatarImg {
+    width: 150px
+}
+
 .brand-logo {
     margin-left: 30px;
 }
 
+.socialIcons {
+    width: 50px
+}
+
+a.dropdownIcons.black-text {
+    padding: 0px;
+}
+
+.parallax-container {
+    height: 600px;
+  }
+
 #navLinks {
-    margin-left: 210px;
+    /* margin-right: 210px; */
 }

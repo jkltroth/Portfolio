@@ -1,9 +1,11 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(document).ready(function () {
 
+    $('.sidenav').sidenav();
     $('.parallax').parallax();
     $(".dropdown-trigger").dropdown({
-        hover: false
+        coverTrigger: false,
+        constrainWidth: false
     });
     
 });

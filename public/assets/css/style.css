@@ -8,9 +8,12 @@ html {
     -o-background-size: cover;
     background-size: cover; */
 }
+.container{
+    width:60%;
+}
 
 #avatarImg {
-    width: 150px
+    width: 250px
 }
 
 .brand-logo {
@@ -25,9 +28,17 @@ a.dropdownIcons.black-text {
     padding: 0px;
 }
 
-.parallax-container {
-    height: 600px;
-  }
+#parallax-img1 {
+    height: 450px;
+}
+
+#parallax-img2 {
+    height: 550px;
+}
+
+.intro {
+    margin-bottom: 0px;
+}
 
 #navLinks {
     /* margin-right: 210px; */

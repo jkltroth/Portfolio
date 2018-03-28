@@ -10,6 +10,11 @@ router.get("/", function (req, res) {
     res.render("index");
 });
 
+router.get("/projects", function (req, res) {
+
+    res.render("projects");
+});
+
 // // A GET route for scraping
 // router.get("/scrape", function (req, res) {
 

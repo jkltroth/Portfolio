@@ -7,5 +7,9 @@ $(document).ready(function () {
         coverTrigger: false,
         constrainWidth: false
     });
+    $('.carousel').carousel({
+        shift: 50,
+        padding: 150
+    });
     
 });
